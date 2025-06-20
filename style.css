@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  background-image: url(/macback.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+nav {
+  height: 4vh;
+  width: 100%;
+}
+.sub-nav {
+  height: 4vh;
+  width: 100%;
+  background-color: gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+
+}
+
+.applelogo {
+  height: 100%;
+  width: 2.5%;
+  display: flex;
+  align-items: center;
+}
+
+.applelogoimg {
+  height: 5vh;
+}
+
+.search-bar {
+
+  width: 50%;
+  display: flex;
+  justify-content: right;
+}
+.search-input {
+
+  padding: 0.5%;
+  background: #170b0b;
+}
+
+.main-content{
+  height: 96%;
+  width: 100%;
+}
